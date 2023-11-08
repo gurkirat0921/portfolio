@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c9062ba959.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo-removebg-preview (1).png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <div class="row">
+                <div class="column-1">
+                    <h1>Hi, I'm Gurkirat kaur,</h1>
+                    <div class="change-text">
+                        <h3><span class="word">Data Science Aficionado</span></h3>
+                    </div>
+                    <p>I'm a hardworking and passionate person having a solid base in data related calling</p>
+                </div>
+                <div class="column-2">
+                     <img src="images/col-1.jpeg" >
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- -------------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I’m a young and enthusiastic student trying to have experience in all aspects of data. I can clean and organize datasets, query databases, manipulate data, and create reports or visualizations to present my findings. I possess a combination of technical expertise, analytical thinking, and a deep understanding of data, which allows me to unravel complex problems and make informed decisions.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages:</span><br>Python,SQL,Machine Learning,HTML,CSS,sas,R,C++</li>
+                        <li><span>Tools:</span><br>Power BI,Tableau,MS office,Jupyter nb,VS code,Kaggle,Github</li>
+                        <li><span>Area of Interest:</span><br>Data collection,Data Analysis,Data Visualization,Big Data Analysis,Machine Learning,Web Scraping</li>
+                        <li><span>Soft Skills:</span><br>Event Planning,Management,Decision-making,Teamwork</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Oct 2023 - present:</span><br>Data scientist intern at Bharat Intern </li>
+                        <li><span>Sep 2023 - present:</span><br>Crowdfunding Intern at Muskurahat Foundation</li>
+                        <li><span>Sep 2023 - Oct 2023</span><br>Data science intern at Codsoft</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>May 2021 - May 2024:</span><br>Bsc computer science,statistics,mahematics<br> at Chandigarh University</li>
+                        <li><span>Apr 2020 - June 2021:</span><br>12th PCM <br>at Blooming Dales International School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------serivices------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>Data Analysis</h2>
+                <p>In this I manipulate, analyse and interpret complex data sets relating to the business. Preparing reports for internal and external audiences using business analytics reporting tools.</p>
+                <a href="https://en.wikipedia.org/wiki/Data_analysis">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Storage</h2>
+                <p>stores data records which can be queried using a query language</p>
+                <a href="https://en.wikipedia.org/wiki/Data_storage">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-pie"></i>
+                <h2>Forecasting Sales</h2>
+                <p>Predicting sales of the company and improving the strategies for better sales</p>
+                <a href="https://en.wikipedia.org/wiki/Forecasting">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- -------------portfolio----- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/photo-1.jpeg">
+                <div class="layer">
+                    <h3>PCOS Analysis</h3>
+                    <p>It talks about the analysis of the fastest growing disease PCOS </p>
+                    <a href="https://github.com/gurkirat0921/PCOS-Prediction"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/photo-3.jpeg">
+                <div class="layer">
+                    <h3>Stock Market</h3>
+                    <p>It talks about evaluation of financial market to make informed investment decisions</p>
+                    <a href="https://github.com/gurkirat0921/stock-prediction"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/photo-4.jpeg">
+                <div class="layer">
+                    <h3>Patrol Route Optimization</h3>
+                    <p> COMING SOON (Working on it) </p>
+                    <a href="https://ieeexplore.ieee.org/document/10050899"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/gurkirat0921" class="btn">See more</a>
+    </div>
+</div>
+<!-- -----------contact--------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>kaurgurkirat73@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>09461078872</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/gurkiratkaur71/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/gurkirat-kaur-2109-gs/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/gurkirat0921"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.kaggle.com/gurkiratkaur9549"><i class="fa-brands fa-kaggle"></i></a>
+                </div>
+                <a href="images/gurkirat_cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <input type="phoneno" name="Phoneno" placeholder="Your phone no." required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbywQtyRsZbDFJeBiLCH7iL413tJjfpB_0LBj7OLkEsiwDmOAMYDPSYdfrxSwuw5oW2a/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully" 
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
